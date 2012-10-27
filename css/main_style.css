@@ -1,0 +1,50 @@
+﻿#header 
+{
+    background-image: url('../img/main_banner.png');
+    width: 950px;
+    height: 81px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#session_status
+{
+    background-color: #C0C0C0;
+    width: 950px;
+    height: 30px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#session_date
+{
+    float:left;
+    margin-left:10px;
+    margin-right:5px;
+    margin-top:6px;
+}   
+
+#session_user
+{
+    float: right;
+    margin-left:5px;
+    margin-right:5px;
+    margin-top:6px;
+}
+
+#session_action
+{
+    float: right;
+    margin-left:5px;
+    margin-right:10px;
+    margin-top:6px;
+}
+
+.SessionText
+{
+    font-family:Verdana;
+    font-size:smaller;
+    color: #FFFFFF;
+    width:auto;
+    height:auto;
+}
