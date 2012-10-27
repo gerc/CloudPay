@@ -55,6 +55,17 @@ namespace CloudPay {
                     return false;
                 }
             }
+
+            public static string GetUserName(string user) {
+                string userName;
+                StoredProcedure sp;
+
+                sp = new StoredProcedure("SP_GetUserName");
+                sp.AddParameter("app_user", user, SqlDbType.VarChar, 30);
+                userName = sp.GetStringValue();
+
+                return userName;
+            }
         }
     }
 }

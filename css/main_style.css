@@ -7,6 +7,30 @@
     margin-right:auto;
 }
 
+#body
+{
+    background-color: #C0C0C0;
+    width: 950px;
+    height: auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#body_interior
+{
+    background-color: #E0E0E0;
+    margin:0px 3px 0px 3px;
+}
+
+#page_foot
+{
+    background-image: url('../img/foot_img.png');
+    width: 950px;
+    height: 27px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 #session_status
 {
     background-color: #C0C0C0;
@@ -47,4 +71,14 @@
     color: #FFFFFF;
     width:auto;
     height:auto;
+}
+
+#login
+{
+    margin-left:auto;
+    margin-right:auto;
+    width:214px;
+    height:108px;
+    font-family:Verdana;
+    font-size:smaller;
 }

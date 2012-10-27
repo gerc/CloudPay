@@ -26,6 +26,13 @@
                         CssClass="SessionText"></asp:Label>
                 </div>
             </div>
+            <div id="body">
+                    <div id="body_interior">
+                        
+                    </div>
+                </div>
+                <div id="page_foot">
+                </div>
         </div>
     </form>
 </body>
